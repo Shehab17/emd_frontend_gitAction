@@ -33,7 +33,7 @@ jobs:
       with:
         switches: -avzr --delete --exclude=".git" --exclude=".github"
         path: ./build/
-    remote_path: /var/www/html/emd_frontend_gitAction
-    remote_host: ${{ secrets.SSH_HOST }}
-    remote_user: ${{ secrets.SSH_USERNAME }}
-    remote_key: ${{ secrets.SSH_PRIVATE_KEY }}
+        remote_path: /var/www/html/emd_frontend_gitAction
+        remote_host: ${{ secrets.SSH_HOST }}
+        remote_user: ${{ secrets.SSH_USERNAME }}
+        remote_key: ${{ secrets.SSH_PRIVATE_KEY }}
