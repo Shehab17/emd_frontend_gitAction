@@ -1,0 +1,4 @@
+.tableFixHead          { overflow: auto;}
+.tableFixHead thead th { position: sticky; top: 0; background:#FFF; }
+
+/* Just common table stuff. Really. */
